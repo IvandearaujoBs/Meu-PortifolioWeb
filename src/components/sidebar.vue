@@ -2,8 +2,8 @@
   <aside class="w-full lg:w-80 bg-gray-800 p-6 lg:min-h-screen">
     <!-- Foto de Perfil -->
     <div class="text-center mb-8">
-      <img src="/public/image/foto-perfil.jpg" alt="foto-perfil" 
-           class="w-32 h-32 rounded-full mx-auto border-4 border-blue-500 shadow-lg object-cover">
+      <img src="/public/image/foto-facebook.jpg" alt="foto-perfil" 
+          class="w-32 h-32 rounded-full mx-auto border-4 border-blue-500 shadow-lg object-cover">
     </div>
 
     <div class="text-center mb-8">

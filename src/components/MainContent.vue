@@ -19,7 +19,7 @@
       <h2 class="text-3xl font-bold mb-6 text-white">Projetos</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="project in projects" :key="project.id" 
-             class="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition">
+            class="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition">
           <h3 class="text-xl font-semibold mb-3 text-white">{{ project.title }}</h3>
           <p class="text-gray-300 mb-4">{{ project.description }}</p>
           <div class="flex flex-wrap gap-2 mb-4">
@@ -39,7 +39,7 @@
       <h2 class="text-3xl font-bold mb-6 text-white">Experiência</h2>
       <div class="space-y-6">
         <div v-for="exp in experience" :key="exp.id" 
-             class="bg-gray-800 rounded-lg p-6 shadow-lg">
+            class="bg-gray-800 rounded-lg p-6 shadow-lg">
           <h3 class="text-xl font-semibold text-white">{{ exp.position }}</h3>
           <p class="text-blue-400 mb-2">{{ exp.company }} • {{ exp.period }}</p>
           <p class="text-gray-300">{{ exp.description }}</p>
@@ -57,23 +57,30 @@ export default {
       projects: [
         {
           id: 1,
-          title: "------",
-          description: "Sistema completo para gestão de pequenas empresas",
-          technologies: ["Vue.js", "Node.js", "MongoDB"],
+          title: "Store Confeitaria",
+          description: "E-commerce de Confeitaria integração com WhatsApp",
+          technologies: ["Vue.js", "Node.js", "Tailwind CSS", "MySQL"],
           link: "#"
         },
         {
           id: 2,
-          title: "------",
-          description: "Loja virtual com carrinho de compras e pagamento",
-          technologies: ["React", "Express", "PostgreSQL"],
+          title: "Quiz Master",
+          description: "Gerador de Questões com IA para estudantes ou professores",
+          technologies: ["Next.js", "SQLite", "Tailwind CSS", "Grok API", "Javascript"],
           link: "#"
         },
         {
           id: 3,
-          title: "-----",
-          description: "Aplicativo para gerenciamento de tarefas diárias",
-          technologies: ["JavaScript", "Firebase", "CSS"],
+          title: "StreamHub",
+          description: "Plataforma de Streaming & Discovery",
+          technologies: ["JavaScript ES6", "HTML5", "CSS", "Node.js", "fetch API"],
+          link: "#"
+        },
+        {
+          id: 4,
+          title: "Gerenciamento de Filas de Pronto-Socorro",
+          description: "Sistema de Triagem e Gestão Hospitalar",
+          technologies: ["Next.js", "Tailwind CSS", "LocalStorage", "Typescript", "SQLite"],
           link: "#"
         }
       ],

@@ -3,10 +3,10 @@
     <Navigation />
     
     <div class="container mx-auto flex flex-col lg:flex-row pt-16">
-      <!-- Sidebar Esquerda -->
+
       <Sidebar />
       
-      <!-- Conteúdo Principal Direita -->
+
       <MainContent />
     </div>
   </div>
